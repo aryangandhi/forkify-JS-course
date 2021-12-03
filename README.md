@@ -1,3 +1,6 @@
 # forkify Porject
 
-Recipe application with custom recipe uploads.
+Recipe web application with custom recipe uploads.
+
+
+Link: https://forkify-aryan-gandhi.netlify.app
