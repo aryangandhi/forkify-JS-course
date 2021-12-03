@@ -23,10 +23,11 @@ class AddRecipeView extends View {
 
   _reAssignParentEl() {
     this._parentElement.innerHTML = this._copyEl.innerHTML;
+    console.log(this._parentElement.innerHTML);
   }
 
   _addHandlerShowWindow() {
-    //this._btnOpen.addEventListener('click', console.log('click'));
+    this._btnOpen.addEventListener('click', this._reAssignParentEl.bind(this));
     this._btnOpen.addEventListener('click', this.toggleWindow.bind(this));
   }
 
